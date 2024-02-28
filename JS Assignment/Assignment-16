@@ -15,5 +15,5 @@ else {
 return result;
 }
 
-let s=slice([1, 2, 3, 4, 5], 2, 4);
+let s =slice([1, 2, 3, 4, 5], 2, 4);
 console.log(s);
