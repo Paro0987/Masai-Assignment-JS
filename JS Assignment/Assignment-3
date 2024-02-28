@@ -1,0 +1,3 @@
+var name = "Paromita";
+var age = 27;
+console.log("My name is " + name + " and my age is " + age + ".");

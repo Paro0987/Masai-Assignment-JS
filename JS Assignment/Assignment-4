@@ -1,0 +1,6 @@
+var num1 = 89;
+var num2 = 77;
+if (num1 == num2) 
+  console.log("True");
+else 
+  console.log("False");

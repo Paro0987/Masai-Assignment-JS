@@ -1,0 +1,32 @@
+const name = "John Doe";
+const school = "XYZ High School";
+const grade = "10th";
+const section = "A";
+const rollNo = "123";
+const marksSubject1 = 90;
+const marksSubject2 = 85;
+const marksSubject3 = 92;
+
+
+const reportCard = `
+************************************************
+*               STUDENT REPORT CARD             *
+************************************************
+Name        : ${name}
+School      : ${school}
+Grade       : ${grade}
+Section     : ${section}
+Roll No.    : ${rollNo}
+----------------------------------------------
+Subject     |   Marks   |   Grade
+----------------------------------------------
+Subject 1   |   ${marksSubject1}     |   A
+Subject 2   |   ${marksSubject2}     |   B
+Subject 3   |   ${marksSubject3}     |   A
+----------------------------------------------
+Average     |   ${((marksSubject1 + marksSubject2 + marksSubject3) / 3).toFixed(2)}     |   A-
+************************************************
+`;
+
+
+console.log(reportCard);

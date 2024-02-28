@@ -1,0 +1,10 @@
+let arr = [10, 24, 56, 72, -10, -88, 100, 564];
+let sum=0;
+count=0;
+arr.forEach(function(element, index){
+  if(index%2!==0){
+   sum+=element;
+   count++;
+  }
+})
+console.log (sum/count);

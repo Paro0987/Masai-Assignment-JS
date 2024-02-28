@@ -1,0 +1,20 @@
+function swapCase(char) {
+  if (char === char.toUpperCase()) {
+      return char.toLowerCase();
+  } else {
+      return char.toUpperCase();
+  }
+}
+
+function swapCaseString(inputString) {
+  let result = "";
+  for (let i = 0; i < inputString.length; i++) {
+      result += swapCase(inputString[i]);
+  }
+  return result;
+}
+
+let inputString = "Test";
+let outputString = swapCaseString(inputString);
+console.log("Input String:", inputString);
+console.log("Output String:", outputString);

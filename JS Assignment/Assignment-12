@@ -1,0 +1,26 @@
+function lowerCase(ch)
+{
+  return ch.toLowerCase();
+}
+function wordtoLower(word)
+{
+  let str="";
+  for(let i=0; i<word.length; i++)
+    {
+      str+=lowerCase(word[i]);
+    }
+  return str;
+}
+function arraytoLower(arr)
+{
+  let arr1=[];
+  for(let i=0; i< arr.length; i++)
+    {
+      arr1.push(wordtoLower(arr[i]));
+    }
+  return arr1;
+}
+let inputArray=  ["MA", "SA", "I", "SCH", "OOL"];
+let outputArray = arraytoLower(inputArray);
+console.log("Input Array:", inputArray);
+console.log("Output Array:", outputArray);

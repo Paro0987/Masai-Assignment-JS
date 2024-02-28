@@ -1,0 +1,11 @@
+function difference(a,b)
+{
+  return a-b;
+}
+function absolutedifference(a)
+{
+  return Math.abs(a);
+}
+let diff= difference(8,9);
+let absdiff= absolutedifference(diff);
+console.log(absdiff);

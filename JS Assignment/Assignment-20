@@ -1,0 +1,8 @@
+let arr=[{name: "Rice", quantity: 2, price: 60},
+        {name: "Dal", quantity: 3, price: 50},
+        {name: "Salt", quantity: 1, price: 20}];
+function total(arr){
+  return arr.reduce((total, item) => total + item.quantity * item.price, 0);
+}
+let totalValue = total(arr);
+console.log(totalValue);

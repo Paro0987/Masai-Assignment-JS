@@ -1,0 +1,12 @@
+let rectangle={
+  length: 26,
+  width: 12
+}
+function area(rectangle){
+  return rectangle.length*rectangle.width;
+}
+function perimeter(rectangle){
+  return 2*(rectangle.length+rectangle.width);
+}
+console.log(area(rectangle));
+console.log(perimeter(rectangle));

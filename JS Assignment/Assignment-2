@@ -1,0 +1,6 @@
+var name = "Paromita";
+console.log(name);
+name = "Subrata Mistri";
+console.log(name);
+name = "Mithu Mistri";
+console.log(name);

@@ -1,0 +1,19 @@
+function slice(arr, start, end) {
+let result = [];
+let from = Math.max(start, 0);
+let to = Math.min(end);
+
+if((end==null) || (end > arr.length)) {
+  for(let i = from; i<arr.length; i++) {
+  result.push(arr[i]);}
+} 
+else { 
+  for(let i = from; i<to; i++) {
+  result.push(arr[i]);
+  }
+}
+return result;
+}
+
+let s=slice([1, 2, 3, 4, 5], 2, 4);
+console.log(s);

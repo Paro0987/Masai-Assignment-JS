@@ -1,0 +1,15 @@
+function join(arr, delimeter) {
+  let str = '';
+  for (let i = 0; i < arr.length; i++) {
+    if (i < arr.length - 1) {
+      str += arr[i] + delimeter;
+    } 
+    else {
+      str += arr[i];
+    }
+  }
+  return str;
+}
+
+let result=join(['Hello', 'World', '!'], '-');
+console.log(result);
